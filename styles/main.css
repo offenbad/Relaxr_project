@@ -1,0 +1,52 @@
+html {
+	font-size: 10 px;
+	font-family: helvetica;
+}
+body {
+	background-color: #dfeaed;
+	padding: 2rem 6rem;
+}
+
+.header {
+	background-image: styles/assets/header_bg.jpg;
+	text-align: center;
+}
+.header__title {
+	font-size: 2rem;
+	font-style: bold;
+	text-align: left;
+	color: white;
+}
+.header__byline {
+	font-size: 1.5rem;
+	color: white;
+	
+}
+.button {
+	padding: .5rem 2rem;
+	font-style: bold;
+}
+.paragraph {
+	background-color: #dfeaed;
+}
+.testimonial {
+	background: styles/assets/testimonial_bg.jpg;
+	text-align: center;
+	font-style: italic;
+	color: white;
+	padding: 2rem 8rem;
+}
+.testimonial__attribution {
+	font-style: bold;
+}
+.footer {
+	text-align: center;
+}
+.footer__title {
+	font-size: 1.5rem;
+	color: yellow;
+	padding: 2rem;
+}
+.footer__copyright {
+	font-size: .5rem;
+}
