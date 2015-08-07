@@ -26,11 +26,19 @@ body {
 	padding: .5rem 2rem;
 	font-style: bold;
 }
+.button__top {
+	background-color: yellow;
+	color: #191970;
+}
 .paragraph {
 	background-color: #dfeaed;
+	color: #8d989c;
+}
+.paragraph__title {
+	color: #191970;
 }
 .testimonial {
-	background: styles/assets/testimonial_bg.jpg;
+	background-image: styles/assets/testimonial_bg.jpg;
 	text-align: center;
 	font-style: italic;
 	color: white;
@@ -42,11 +50,20 @@ body {
 .footer {
 	text-align: center;
 }
+.button__bottom {
+	display: inline-block;
+	background-color: #191970;
+	color: white;
+}
 .footer__title {
 	font-size: 1.5rem;
 	color: yellow;
 	padding: 2rem;
 }
+.navigation__link {
+	color: white;
+}
 .footer__copyright {
 	font-size: .5rem;
+	color: white;
 }
