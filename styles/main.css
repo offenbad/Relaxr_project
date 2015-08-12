@@ -2,16 +2,14 @@ html {
 	font-size: 10 px;
 	font-family: helvetica;
 }
-body {
-	background-color: #dfeaed;
-	padding: 2rem 6rem;
-}
+
 .container {
 	max-width: 50rem;
 }
 .container--top {
-	background: /styles/assets/header_bg.jpg;
+	background: styles/assets/header_bg.jpg;
 	text-align: center;
+	padding: 2rem 6rem;
 }
 .container--top__title {
 	font-size: 2rem;
@@ -50,6 +48,7 @@ body {
 
 .container--bottom {
 	text-align: center;
+	background-color: black;
 }
 .button__bottom {
 	background-color: #191970;
