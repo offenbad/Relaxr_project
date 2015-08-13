@@ -2,14 +2,15 @@ html {
 	font-size: 10 px;
 	font-family: helvetica;
 }
-
 .container {
-	max-width: 50rem;
+	max-width: 40rem;
+	padding: 2rem 7rem;
 }
 .container--top {
-	background: styles/assets/header_bg.jpg;
+	background-image: url("assets/header_bg.jpg");
+	background-size: cover;
 	text-align: center;
-	padding: 2rem 6rem;
+	padding: .5rem 6rem 12rem 6rem;
 }
 .container--top__title {
 	font-size: 2rem;
@@ -20,6 +21,7 @@ html {
 .container--top__byline {
 	font-size: 1.5rem;
 	color: white;
+	padding: 2rem;
 }
 .button {
 	padding: .5rem 2rem;
@@ -32,37 +34,39 @@ html {
 .container--middle {
 	background-color: #dfeaed;
 	color: #8d989c;
-	max-width: 25rem;
 }
-.container-middle__title {
+.container--middle__title {
 	color: #191970;
 }
 .container--middle__testimonial {
-	background: styles/assets/testimonial_bg.jpg;
+	background-image: url("assets/testimonial_bg.jpg");
+	background-size: cover;
 	text-align: center;
 	font-style: italic;
-}
-.container--middle__testimonial__attribution {
-	font-style: bold;
-}
-
-.container--bottom {
-	text-align: center;
-	background-color: black;
+	padding: 2rem;
 }
 .button__bottom {
 	background-color: #191970;
 	color: white;
 }
+.container--button {
+	background-color: yellow;
+	padding: 1rem;
+}
+.container--bottom {
+	text-align: center;
+	background-color: black;
+}
 .container--bottom__title {
 	font-size: 1.5rem;
 	color: yellow;
-	padding: 2rem;
 }
 .navigation__link {
 	color: white;
+	padding: 1rem;
 }
 .container--bottom__copyright {
 	font-size: .5rem;
 	color: white;
+	padding: 1rem;
 }
