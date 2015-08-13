@@ -1,10 +1,12 @@
 html {
 	font-size: 10 px;
-	font-family: helvetica;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .container {
-	max-width: 40rem;
+	max-width: 50rem;
 	padding: 2rem 7rem;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 .container--top {
 	background-image: url("assets/header_bg.jpg");
@@ -16,16 +18,18 @@ html {
 	font-size: 2rem;
 	font-style: bold;
 	text-align: left;
-	color: white;
+	color: #fbfcfd;
 }
 .container--top__byline {
 	font-size: 1.5rem;
-	color: white;
+	color: #fbfcfd;
 	padding: 2rem;
 }
 .button {
-	padding: .5rem 2rem;
+	padding: .4rem 1.8rem;
 	font-style: bold;
+	font-size: .9rem;
+	border-radius: .3rem;
 }
 .button--top {
 	background-color: yellow;
@@ -33,17 +37,23 @@ html {
 }
 .container--benefits {
 	background-color: #dfeaed;
-	color: #8d989c;
+	color: #6e7f80;
+	font-size: 1rem;
 }
 .container--benefits__title {
-	color: #191970;
+	color: #001b43;
+	font-size: 1.2rem;
 }
 .container--testimonial {
 	background-image: url("assets/testimonial_bg.jpg");
 	text-align: center;
 	font-style: italic;
-	color: white;
+	color: #dfeaed;
+	font-size: 1.1rem;
 	padding: 2.5rem;
+}
+.container--testimonial__attribution {
+	font-size: 1.2rem;
 }
 .container--button {
 	background-color: yellow;
@@ -51,8 +61,8 @@ html {
 	text-align: center;
 }
 .button--bottom {
-	background-color: #191970;
-	color: white;
+	background-color: #001b43;
+	color: #dfeaed;
 }
 .container--bottom {
 	text-align: center;
@@ -64,11 +74,11 @@ html {
 }
 .navigation__link {
 	font-size: .7rem;
-	color: white;
+	color: #dfeaed;
 	padding: 1rem;
 }
 .container--bottom__copyright {
 	font-size: .5rem;
-	color: white;
+	color: #dfeaed;
 	padding-top: 2rem;
 }
